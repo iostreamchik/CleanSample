@@ -4,14 +4,13 @@ import android.annotation.SuppressLint;
 import android.util.Log;
 import com.arellomobile.mvp.InjectViewState;
 import com.arellomobile.mvp.MvpPresenter;
-import com.arellomobile.mvp.MvpView;
 import com.petaurus.cleansample.domain.UserInteractor;
 import com.petaurus.cleansample.presentation.SchedulersProvider;
 
 import javax.inject.Inject;
 
 @InjectViewState
-public class MainPresenter extends MvpPresenter<MvpView> {
+public class MainPresenter extends MvpPresenter<MainView> {
 
     public static final String TAG = MainPresenter.class.getSimpleName();
 
