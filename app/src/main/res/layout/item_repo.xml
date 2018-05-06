@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:id="@+id/v_root"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:minHeight="?attr/actionBarSize"
+                                    android:layout_margin="4dp"
+                                    app:contentPadding="4dp"
+                                    app:cardCornerRadius="4dp"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    xmlns:tools="http://schemas.android.com/tools" >
+    <data>
+        <variable
+                name="repo"
+                type="com.petaurus.cleansample.data.Repo" tools:ignore="MissingPrefix"/>
+    </data>
+
+    <TextView
+            android:id="@+id/tv_name"
+            tools:text="Name of repo"
+            android:ellipsize="end"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</android.support.v7.widget.CardView>

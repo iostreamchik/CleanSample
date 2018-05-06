@@ -1,4 +1,4 @@
-package com.petaurus.cleansample.presentation.moxy;
+package com.petaurus.cleansample.presentation.mvp;
 
 import com.petaurus.cleansample.application.AppComponent;
 import com.petaurus.cleansample.scope.Presenter;

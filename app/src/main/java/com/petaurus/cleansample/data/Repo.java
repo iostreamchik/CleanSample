@@ -1,6 +1,8 @@
 package com.petaurus.cleansample.data;
 
-public class Repo {
+import com.petaurus.cleansample.presentation.repo_list.RepoItem;
+
+public class Repo implements RepoItem {
 
     private String name;
 

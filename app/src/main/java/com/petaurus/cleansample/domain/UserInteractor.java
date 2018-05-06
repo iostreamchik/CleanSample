@@ -20,7 +20,7 @@ public class UserInteractor {
     }
 
 
-    public Single<List<Repo>> getUser(String username) {
+    public Single<List<Repo>> getListRepos(String username) {
         return usersRepository.getListRepos(username)
                 .subscribeOn(schedulersProvider.io());
     }

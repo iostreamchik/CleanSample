@@ -1,4 +1,4 @@
-package com.petaurus.cleansample.presentation.moxy;
+package com.petaurus.cleansample.presentation.mvp;
 
 import dagger.Module;
 
